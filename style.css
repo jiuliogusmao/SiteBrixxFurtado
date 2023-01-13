@@ -1,0 +1,176 @@
+body {
+    font-family:'Comfortaa', sans-serif;
+
+}
+
+header {
+    display: block;
+    padding: 0 0 10px 0;
+}
+
+.caixa {
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+nav {
+    display: block;
+    width: 100%;
+	position: relative;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+nav li {
+	display: inline;
+	margin: 40px 40px;
+}
+
+nav a {
+    text-transform: uppercase;
+	color: #000000;
+    font-weight: lighter;
+	text-decoration: none;
+    letter-spacing: 3.3px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* <----- AUTORAIS ------> */
+
+.portfolio {
+    display: flex;
+    position: relative;
+    margin-top: -6px;
+    margin-bottom: -6px;
+    justify-content: center;
+}
+
+.fundo {
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+
+.capa {
+    display: flex;
+    position: relative;
+    background-color: #ffeae3;
+    width: 569px;
+    height: 580px;
+}
+
+.link:hover img {
+    opacity: 0.0;
+    transition: all .2s;
+}
+
+.capa a {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    text-decoration: none;
+    color: #D68C45;
+    font-weight: 600;
+    letter-spacing: 3.3px;
+}
+
+.capa:hover a {
+    visibility: visible;
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: all .2s;
+    justify-content: center;
+    width: 569px;
+    height: 580px;
+}
+
+.portfolio img {
+    width: 569px;
+    height: 580px;
+}
+
+/* <-------- SHAPE ---------> */
+
+.titulo {
+     display: block;
+     position: relative;
+     margin: 0 55px 0 55px;
+}
+.obra {
+    background-color: #ffc9b9;
+    margin: 21px 0 0 0;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5px;
+}
+
+.obra p {
+    line-height: 25px;
+    margin: 0 0 1.5em 0;
+}
+
+.solo{
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    width: 1178px;
+    height: 1178px;
+}
+
+.dupla {
+    display: flex;
+    position: relative;
+    margin-top: -6px;
+    margin-bottom: -6px;
+    justify-content: center;
+}
+
+.imagem {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.dupla img {
+    width: 569px;
+    height: 580px;
+}
+
+/* <-------- responsividade ----------->*/
+
+@media screen and (max-width: 440px) {
+    .caixa, .capa, .portfolio {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+}
+
